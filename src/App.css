@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+:root {
+  font-family: Inter;
+}
+
+body {
+  background-color: gray;
+}
+
+.pokeCard {
+  display: flex;
+  /*  flex-direction: column; */
+  width: 440px;
+  height: 210px;
+  border-radius: 12px;
+  position: relative;
+  text-transform: capitalize;
+  font-family: Inter;
+  font-weight: 700;
+}
+
+.pokedexButton {
+  border: none;
+  width: 250px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: rgba(51, 164, 245, 1);
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.pokeCard2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 25px;
+  left: 10px;
+  position: relative;
+  top: 41px;
+}
+
+.cardContent {
+  text-transform: capitalize;
+}
+
+.pokeImg {
+  height: auto;
+  width: 193px;
+  position: absolute;
+  right: 0px;
+  top: -50px;
+}
+
+.pokeButtons {
+  display: flex;
+  position: relative;
+  bottom: 53px;
+  gap: 44px;
+  justify-content: space-between;
+  left: 34px;
+  width: 386px;
+}
+
+.pokeCard2 img {
+  display: flex;
+  position: relative;
+  left: 179px;
+  bottom: 132px;
+}
+
+.font1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.font2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.font3 {
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  gap: 8px;
+  bottom: -11px;
+  position: relative;
+  height: 34px;
+}
+
+.font3 span {
+  padding: 10px 20px;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px dotted;
+  border-color: white;
+  color: white;
+}
+
+.font3 span img {
+  position: relative;
+  bottom: 2px;
+  left: -10px;
+}
+
+.css-fek7wd-MuiGrid-root .MuiGrid-item{
+padding: none;
+}
+
+/* .pokemonImg :hover{
+  transform: scale(1.1);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor:crosshair;
+}  */
+
+.voltarButtom{
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.pokeDelete{
+  border: none;
+  width: 250px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #d11515;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.pokeAdd{
+  border: none;
+  width: 250px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #25ca41;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.modal-content {
+  width: 30%;
+  min-height: 200px;
+  background-color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 18px;
+}
